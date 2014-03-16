@@ -1,0 +1,34 @@
+# this is an example config file for pcb2gcode.
+# place this in the same directory as your gerber files to save typing
+
+# You may want to uncomment and change those in local project files
+#front=Gen7Board.front.gbr
+#back=Gen7Board.back.gbr
+#drill=Gen7Board.plated-drill.cnc
+#outline=contour.back.gbr
+#verbose
+
+# parameters for isolation routing / engraving / etching
+zwork=-0.002
+zsafe=0.25
+zchange=1.0
+mill-feed=6
+mill-speed=30000
+
+# parameters for cutting out boards
+cutter-diameter=0.059055118
+zcut=-0.08
+cut-feed=3
+cut-speed=20000
+cut-infeed=1
+
+# drilling parameters
+zdrill=-0.08
+drill-feed=6
+drill-speed=20000
+
+#offset=0.006
+# generate voronoi regions
+offset=1.0
+dpi=1000
+#max-deviation=0
